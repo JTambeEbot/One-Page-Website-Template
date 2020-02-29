@@ -1,0 +1,58 @@
+/* Gallery Section Start */
+
+#gallery-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: white;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img-gallery {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 50px;
+}
+
+.hover-background {
+    border-radius: 8px;
+    background-color: $primaryColor;
+    opacity: 0;
+    position: absolute;
+    width: 93%;
+    height: 88%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hover-background:hover {
+    opacity: 0.8;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    .hover-background {
+        width: 93%;
+        height: 95%;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .hover-background {
+        width: 95%;
+        height: 90%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .hover-background {
+        width: 88%;
+        height: 82%;
+    }
+}
+
+
+/* Gallery Section End */

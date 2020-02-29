@@ -1,0 +1,167 @@
+/* Stats Section Start */
+
+#stats {
+    height: 50vh;
+    background-color: #F8E33D;
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.stats-line {
+    display: flex;
+    justify-content: space-around;
+}
+
+.stats-div {
+    border: solid 1px white;
+    border-radius: 50%;
+    width: 220px;
+    height: 220px;
+}
+
+.stats-number {
+    font-size: 60px;
+    text-align: center;
+    position: relative;
+    top: 25%;
+    font-weight: 700;
+}
+
+.stats-text {
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    top: 20%;
+}
+
+#stats-div {
+    border: solid 1px white;
+    border-radius: 50%;
+    width: 220px;
+    height: 220px;
+}
+
+#M-div {
+    position: relative;
+    top: 22%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+#M-style {
+    font-weight: 700;
+    font-size: 60px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    #stats {
+        height: 100%;
+    }
+    .stats-line {
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    .stats-div {
+        width: 180px;
+        height: 180px;
+        margin-bottom: 50px;
+    }
+    .stats-number {
+        font-size: 40px;
+    }
+    .stats-text {
+        font-size: 12px;
+    }
+    #stats-div {
+        width: 180px;
+        height: 180px;
+        margin-bottom: 50px;
+    }
+    #M-div {
+        position: relative;
+        top: 22%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+    }
+    #M-style {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    #stats {
+        height: 100%;
+    }
+    .stats-line {
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    .stats-div {
+        width: 180px;
+        height: 180px;
+        margin-bottom: 50px;
+    }
+    .stats-number {
+        font-size: 40px;
+    }
+    .stats-text {
+        font-size: 12px;
+    }
+    #stats-div {
+        width: 180px;
+        height: 180px;
+        margin-bottom: 50px;
+    }
+    #M-div {
+        position: relative;
+        top: 22%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+    }
+    #M-style {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .stats-div {
+        width: 180px;
+        height: 180px;
+        margin-bottom: 50px;
+    }
+    .stats-number {
+        font-size: 35px;
+    }
+    .stats-text {
+        font-size: 14px;
+    }
+    #stats-div {
+        width: 180px;
+        height: 180px;
+    }
+    #M-div {
+        position: relative;
+        top: 22%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+    }
+    #M-style {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (min-width: 992px) {}
+
+
+/* Stats Section End */

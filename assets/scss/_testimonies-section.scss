@@ -1,0 +1,160 @@
+/* Testimonies Section Start */
+
+#carousel {
+    min-height: 50vh;
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.carousel-indicators li:active {
+    background-color: $primaryColor;
+}
+
+.arrow {
+    width: 62px;
+}
+
+.dot {
+    height: 8px;
+    width: 8px;
+    background-color: rgba(187, 187, 187, 0.596);
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+    bottom: 50px;
+}
+
+.dot:active {
+    background-color: $primaryColor;
+}
+
+.full-team {
+    margin: auto;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.team {
+    background-color: white;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: -20 -20 20px;
+}
+
+.team-photo {
+    border: 2px solid $primaryColor;
+    border-radius: 1000px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.team-text {
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.bold-name {
+    margin-top: 5px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    #carousel {
+        height: 100vh;
+    }
+    .full-team {
+        display: flex;
+        flex-direction: column;
+    }
+    .team {
+        width: 300px;
+        height: 150px;
+        margin-bottom: 30px;
+    }
+    .team-text {
+        font-size: 10px;
+    }
+    .carousel-control-prev {
+        display: none;
+    }
+    .carousel-control-next {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    #carousel {
+        height: 100vh;
+    }
+    .full-team {
+        display: flex;
+        flex-direction: column;
+    }
+    .team {
+        width: 300px;
+        height: 150px;
+        margin-bottom: 30px;
+    }
+    .team-text {
+        font-size: 10px;
+    }
+    .carousel-control-prev {
+        display: none;
+    }
+    .carousel-control-next {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    #carousel {
+        height: 100vh;
+    }
+    .full-team {
+        display: flex;
+        flex-direction: column;
+    }
+    .team {
+        width: 300px;
+        height: 150px;
+        margin-bottom: 30px;
+    }
+    .team-text {
+        font-size: 10px;
+    }
+    .carousel-control-prev {
+        position: absolute;
+        left: 25%;
+        top: 70%;
+    }
+    .carousel-control-next {
+        position: absolute;
+        right: 25%;
+        top: 70%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .carousel-control-prev {
+        position: absolute;
+        margin: auto;
+    }
+    .carousel-control-next {
+        position: absolute;
+        margin: auto;
+        right: 0px;
+    }
+}
+
+
+/* Testimonies Section End */

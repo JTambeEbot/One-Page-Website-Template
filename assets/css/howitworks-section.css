@@ -1,0 +1,130 @@
+/* How it Works Section Start */
+
+#how {
+    background-color: white;
+    padding: 100px;
+}
+
+#register-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-number {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.how-image {
+    display: block;
+    margin-left: 30%;
+    width: auto;
+    height: auto;
+}
+
+#complete-image {
+    display: block;
+    margin-right: 30%;
+}
+
+#how-div-text {
+    max-width: 30%;
+    position: relative;
+    left: 20px;
+}
+
+#complete-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#complete-div-text {
+    text-align: right;
+    max-width: 30%;
+    position: relative;
+    right: 20px;
+}
+
+#horizontal-line {
+    background-color: rgb(209, 209, 209);
+    height: 250px;
+    width: 2px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    #register-div {
+        flex-direction: column-reverse;
+    }
+    .big-number {
+        text-align: center;
+        font-size: 40px;
+    }
+    #how-div-text {
+        max-width: none;
+        text-align: center;
+        font-size: 10px;
+        position: static;
+    }
+    .how-image {
+        margin: auto;
+    }
+    #complete-div {
+        flex-direction: column;
+    }
+    #complete-div-text {
+        text-align: center;
+        max-width: none;
+        position: static;
+        font-size: 10px;
+    }
+    #complete-image {
+        display: block;
+        margin-right: 0px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    #register-div {
+        flex-direction: column-reverse;
+    }
+    .big-number {
+        text-align: center;
+        font-size: 40px;
+    }
+    #how-div-text {
+        max-width: none;
+        text-align: center;
+        font-size: 10px;
+        position: static;
+    }
+    .how-image {
+        margin: auto;
+    }
+    #complete-div {
+        flex-direction: column;
+    }
+    #complete-div-text {
+        text-align: center;
+        max-width: none;
+        position: static;
+        font-size: 10px;
+    }
+    #complete-image {
+        display: block;
+        margin-right: 0px;
+    }
+}
+
+
+/* How it Works Section End */

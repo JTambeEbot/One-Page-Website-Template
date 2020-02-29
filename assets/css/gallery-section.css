@@ -1,0 +1,21 @@
+/* Gallery Section Start */
+
+#gallery-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: white;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img-gallery {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 50px;
+}
+
+
+/* Gallery Section End */

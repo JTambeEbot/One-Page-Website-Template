@@ -1,0 +1,18 @@
+/* NavBar Section Start */
+
+.navbar {
+    padding-top: 20px;
+}
+
+.nav-link {
+    color: white;
+    margin-left: 40px;
+    text-align: right;
+}
+
+.nav-link:hover {
+    color: #F8E33D;
+}
+
+
+/* NavBar Section End */
